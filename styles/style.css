@@ -526,30 +526,52 @@ footer>div>p {
         flex-direction: column;
     }
 
-    .love-n-enjoy-description{
+    .love-n-enjoy-description {
         width: 390px;
     }
+
     .box {
         width: 360px;
     }
+
     .image-with-button>img {
         max-width: 350px;
         margin: 10px;
     }
-    .experience-button{
+
+    .experience-button {
         position: relative;
         margin-left: 60px;
         margin-top: -60px;
     }
 
     /* -----------some factss sectionn--------- */
-    .some-facts-section > .section-description{
+    .some-facts-section>.section-description {
         width: 380px;
     }
-    .facts-icon-containers{
+
+    .facts-icon-containers {
         flex-direction: column;
         align-items: center;
         row-gap: 21px;
 
+    }
+
+    .section-title,
+    .section-description {
+        text-align: center;
+        width: 100%;
+        margin: 20px;
+    }
+
+    .sponsors-logos {
+        flex-direction: column;
+        row-gap: 40px;
+        align-items: center;
+
+    }
+
+    .sponsors-logos>img {
+        width: 150px;
     }
 }
