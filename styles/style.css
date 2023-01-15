@@ -526,7 +526,7 @@ footer>div>p {
         flex-direction: column;
     }
 
-    .love-n-enjoy-description {
+    .love-n-enjoy-description{
         width: 390px;
     }
 
@@ -546,32 +546,58 @@ footer>div>p {
     }
 
     /* -----------some factss sectionn--------- */
-    .some-facts-section>.section-description {
+    .some-facts-section > .section-description {
         width: 380px;
     }
-
-    .facts-icon-containers {
+    .facts-icon-containers{
         flex-direction: column;
         align-items: center;
         row-gap: 21px;
 
     }
-
-    .section-title,
-    .section-description {
+    .section-title , .section-description{
         text-align: center;
-        width: 100%;
-        margin: 20px;
+        
     }
-
-    .sponsors-logos {
+    
+    .sponsors-logos{
         flex-direction: column;
         row-gap: 40px;
         align-items: center;
-
+        
     }
-
-    .sponsors-logos>img {
+    .sponsors-logos>img{
+width: 150px;    
         width: 150px;
-    }
+width: 150px;    
+        width: 150px;
+width: 150px;    }
+
+/* ------------------conactus subscrib---------- */
+.contact-us-subscribe{
+    flex-direction: column-reverse;
+    padding: 30px;
+    row-gap: 80px;
+    background-color: #42424288;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+   
+}
+.contact-us-description{
+    width: 380px;
+}
+footer{
+    width: 400px;
+    
+}
+footer>div>p{
+    width: 400px;
+    font-size: 10px;
+    text-align: center;
+    
+}
 }
